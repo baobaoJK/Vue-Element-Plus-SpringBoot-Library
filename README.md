@@ -10,6 +10,20 @@ Description: Vue-Element-Plus-SpringBoot 图书管理系统
 
 
 
+Library-Server：图书管理系统服务端
+
+Library-UI：图书管理前端页面
+
+​	library：管理员页面
+
+​	library-user：用户页面
+
+Library：SpringBoot 空项目
+
+library.sql 数据库文件
+
+
+
 # 一、项目介绍
 
 使用Vue+Element 前端技术 与 Java SpringBoot 后端技术制作的图书管理系统，功能包含，管理员图书管理功能，用户管理功能等
