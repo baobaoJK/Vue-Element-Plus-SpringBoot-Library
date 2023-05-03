@@ -16,6 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/type")
 public class TypeHandler {
+    /**
+     * 图书种类数据库操作接口
+     */
     @Autowired
     private TypeRepository typeRepository;
 

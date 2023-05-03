@@ -10,9 +10,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 日志控制器
+ * @author KSaMar
+ */
 @RestController
 @RequestMapping("/nav")
 public class LogHandler {
+    /**
+     * 日志数据库操作接口
+     */
     @Autowired
     private LogRepository logRepository;
 

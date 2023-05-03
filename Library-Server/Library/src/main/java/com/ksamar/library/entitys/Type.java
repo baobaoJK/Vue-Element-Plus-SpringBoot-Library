@@ -4,6 +4,10 @@ import lombok.Data;
 
 import javax.persistence.*;
 
+/**
+ * 图书种类实体类
+ * @author KSaMar
+ */
 @Table(name = "TYPELIST")
 @Entity
 @Data

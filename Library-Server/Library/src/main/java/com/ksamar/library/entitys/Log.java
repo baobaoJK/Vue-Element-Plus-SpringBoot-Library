@@ -5,6 +5,10 @@ import lombok.Data;
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * 日志信息实体类
+ * @author KSaMar
+ */
 @Table(name = "OPERATIONLIST")
 @Entity
 @Data

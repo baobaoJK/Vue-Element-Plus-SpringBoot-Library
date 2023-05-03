@@ -5,6 +5,10 @@ import lombok.Data;
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * 借阅信息实体类
+ * @author KSaMar
+ */
 @Table(name = "BORROWLIST")
 @Entity
 @Data

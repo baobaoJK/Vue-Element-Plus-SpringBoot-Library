@@ -12,9 +12,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Optional;
 
+/**
+ * 登录控制器
+ * @author KSaMar
+ */
 @RestController
 @RequestMapping("/login")
 public class LoginHandler {
+    /**
+     * 用户数据库操作接口
+     */
     @Autowired
     private UserRepository userRepository;
 

@@ -26,15 +26,28 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/borrow")
 public class BorrowHandler {
+
+    /**
+     * 借阅图书数据库操作接口
+     */
     @Autowired
     BorrowRepository borrowRepository;
 
+    /**
+     * 图书数据库操作接口
+     */
     @Autowired
     BookRepository bookRepository;
 
+    /**
+     * 用户数据库操作接口
+     */
     @Autowired
     UserRepository userRepository;
 
+    /**
+     * 日志数据库操作接口
+     */
     @Autowired
     LogRepository logRepository;
 

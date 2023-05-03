@@ -8,6 +8,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * 借阅信息数据库操作接口
+ * @author KSaMar
+ */
 public interface BorrowRepository extends JpaRepository<Borrow, Integer> {
     /**
      * IdCard 搜索借阅信息

@@ -4,6 +4,10 @@ import lombok.Data;
 
 import javax.persistence.*;
 
+/**
+ * 用户实体类
+ * @author KSaMar
+ */
 @Table(name = "USERLIST")
 @Entity
 @Data
