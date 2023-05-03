@@ -8,7 +8,7 @@ Date: 2023/4/15 - 2023/5/3
 
 Description: Vue-Element-Plus-SpringBoot 图书管理系统
 
-
+---
 
 Library-Server：图书管理系统服务端
 
@@ -21,6 +21,8 @@ Library-UI：图书管理前端页面
 Library：SpringBoot 空项目
 
 library.sql 数据库文件
+
+---
 
 
 
