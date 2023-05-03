@@ -1,5 +1,10 @@
 # Vue-Element-Plus-SpringBoot 图书管理系统
 
+Name: Vue-Element-Plus-SpringBoot 图书管理系统
+Author: KSaMar
+Date: 2023/4/15 - 2023/5/3
+Description: Vue-Element-Plus-SpringBoot 图书管理系统
+
 
 
 # 一、项目介绍
@@ -84,72 +89,73 @@ IDEA 2021.3.2
 
 ## 项目结构
 
-![图书管理系统 - 项目结构](README\图书管理系统 - 项目结构.png)
+![图书管理系统 - 项目结构](README/图书管理系统 - 项目结构.png)
 
 ## 技术栈
 
-![图书管理系统 - 技术栈](README\图书管理系统 - 技术栈.png)
+![图书管理系统 - 技术栈](README/图书管理系统 - 技术栈.png)
 
 ## 管理员功能
 
-![图书管理系统 - 管理员功能](README\图书管理系统 - 管理员功能.png)
+![图书管理系统 - 管理员功能](README/图书管理系统 - 管理员功能.png)
 
 ## 普通用户功能
 
-![图书管理系统 - 普通用户功能](README\图书管理系统 - 普通用户功能.png)
+![图书管理系统 - 普通用户功能](README/图书管理系统 - 普通用户功能.png)
 
 ## 数据库结构
 
-![图书管理系统 - 数据库结构](README\图书管理系统 - 数据库结构.png)
+![图书管理系统 - 数据库结构](README/图书管理系统 - 数据库结构.png)
 
 ## 管理员登录页面
 
-![login-admin](README\login-admin.png)
+![login-admin](README/login-admin.png)
 
 ## 仪表盘页面
 
-![home](README\home.png)
+![home](README/home.png)
 
 ## 图书管理页面
 
-![book-admin](README\book-admin.png)
+![book-admin](README/book-admin.png)
 
-![add-book](README\add-book.png)
+![add-book](README/add-book.png)
 
-![delete-book](README\delete-book.png)
+![delete-book](README/delete-book.png)
 
 ## 借阅图书页面
 
-![borrow](README\borrow.png)
+![borrow](README/borrow.png)
 
 ## 归还图书页面
 
-![return](README\return.png)
+![return](README/return.png)
 
 ## 超时查询页面
 
-![overtime](README\overtime.png)
+![overtime](README/overtime.png)
 
 ## 用户管理页面
 
-![user-admin](README\user-admin.png)
+![user-admin](README/user-admin.png)
 
-![add-user](README\add-user.png)
+![add-user](README/add-user.png)
 
-![delete-user](README\delete-user.png)
+![delete-user](README/delete-user.png)
 
 ## 系统设置页面
 
-![system](README\system.png)
+![system](README/system.png)
 
 ## 用户登录页面
 
-![login-user](README\login-user.png)
+![login-user](README/login-user.png)
 
 ## 用户图书信息页面
 
-![book-user](README\book-user.png)
+![book-user](README/book-user.png)
 
 ## 用户个人信息页面
 
-![user-user](README\user-user.png)
+![user-user](README/user-user.png)
+
