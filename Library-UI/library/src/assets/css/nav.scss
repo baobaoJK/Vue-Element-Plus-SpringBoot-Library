@@ -1,0 +1,104 @@
+$blue:#3C8CE7;
+
+// 仪表盘页面样式
+.nav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  // 导航栏样式
+  .el-aside {
+    width: 240px;
+    background: $blue !important;
+
+    // 导航栏标题
+    .title {
+      text-align: center;
+      padding: 30px 0;
+      color: #fff;
+      font-size: 22px;
+    }
+
+    // 菜单
+    .el-menu {
+      background-color: $blue;
+      border-right: 0;
+
+      // 菜单文字颜色
+      .el-sub-menu,
+      .el-sub-menu *,
+      .el-menu-item {
+        color: white;
+      }
+
+      // 菜单鼠标经过事件
+      .el-sub-menu div:hover,
+      .el-sub-menu li:hover,
+      .el-menu-item:hover {
+        background-color: #4896ef;
+      }
+
+      // 菜单图标
+      .el-icon {
+        width: 32px;
+        font-size: 28px;
+        padding-right: 6px;
+      }
+
+      // 菜单游标
+      .el-sub-menu__icon-arrow {
+        font-size: 16px;
+        padding-right: 0;
+      }
+
+      // 菜单文字
+      .el-sub-menu .el-menu-item {
+        padding-left: 63px;
+      }
+    }
+  }
+
+  // 主要区域样式
+  .el-main {
+    // 用户信息工具栏
+    .toolbar {
+      width: 100%;
+      height: 56px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      // 下拉菜单
+      .el-dropdown {
+        margin-left: 16px;
+        margin-right: 16px;
+
+        // 图标
+        i {
+          font-size: 24px;
+        }
+
+        i:hover,
+        i:focus {
+          outline: none !important;
+        }
+      }
+    }
+
+    // 标签栏
+    .tabs{
+      height: calc(100% - 60px);
+      .el-tabs{
+        height: 100%;
+        .el-tabs__content{
+          height: calc(100% - 40px);
+          overflow: auto;
+          .el-tab-pane{
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

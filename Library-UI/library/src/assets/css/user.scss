@@ -1,0 +1,86 @@
+// 用户管理页面样式
+.user {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  // 用户操作栏样式
+  .user-header {
+    margin-bottom: 24px;
+
+    input,
+    button {
+      height: 40px;
+    }
+
+    .search-page-pane,
+    .add-button-pane {
+      display: flex;
+      justify-content: center;
+    }
+
+    // 搜索框样式
+    .el-select div {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    .el-input div {
+      border-radius: 0;
+    }
+    .search-button {
+      width: 100%;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      height: 42px;
+    }
+
+    // 添加用户按钮样式
+    .add-button {
+      width: 60%;
+      height: 42px;
+    }
+  }
+
+  // 用户表格样式
+  .user-table {
+    height: calc(100% - 80px);
+    .el-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-height: calc(100% - 16px);
+
+      .el-table {
+        min-height: 100%;
+        max-height: 100%;
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  // 添加用户表单样式
+  .add-user-dialog,
+  .edit-user-dialog {
+    .add-user-form,
+    .edit-user-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      input {
+        width: 300px;
+        height: 36px;
+      }
+
+      .el-select input {
+        width: 278px;
+      }
+    }
+
+    .el-button {
+      width: 100px;
+      height: 36px;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+// 图书管理页面样式
+.book {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  // 图书操作栏样式
+  .book-header {
+    margin-bottom: 24px;
+
+    input,
+    button {
+      height: 40px;
+    }
+
+    .search-page-pane,
+    .add-button-pane {
+      display: flex;
+      justify-content: center;
+    }
+
+    // 搜索框样式
+    .el-select div{
+      border-top-left-radius: 4px !important;
+      border-bottom-left-radius: 4px !important;
+    }
+    .el-input div {
+      border-radius: 0;
+    }
+    .search-button {
+      width: 100%;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      height: 42px;
+    }
+
+    // 添加图书按钮样式
+    .add-button {
+      width: 60%;
+      height: 42px;
+    }
+  }
+
+  // 图书表格样式
+  .book-table {
+      height: calc(100% - 80px);
+    .el-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-height: calc(100% - 16px);
+
+      .el-table {
+        min-height: 100%;
+        max-height: 100%;
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  // 添加图书表单样式
+  .add-book-dialog,
+  .edit-book-dialog {
+    .add-book-form,
+    .edit-book-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      input {
+        width: 300px;
+        height: 36px;
+      }
+
+      .el-select input {
+        width: 278px;
+      }
+    }
+
+    .el-button {
+      width: 100px;
+      height: 36px;
+    }
+  }
+}

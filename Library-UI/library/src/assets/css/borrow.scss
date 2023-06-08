@@ -1,0 +1,83 @@
+// 借阅图书页面样式
+.borrow {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  // 主要区域样式
+  .el-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // 借阅图书面板样式
+    .borrow-pane {
+      width: 600px;
+      height: 400px;
+
+      // 标题
+      .title {
+        display: block;
+        width: 100%;
+        height: auto;
+        font-size: 32px;
+        letter-spacing: 4px;
+        text-align: center;
+        margin-bottom: 16px;
+      }
+
+      // 图书搜索框样式
+      .search-book-pane {
+        .search-book-input {
+          width: 80%;
+          height: 40px;
+          div {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+          }
+          input {
+            text-align: center;
+          }
+        }
+        .search-book-button {
+          width: 20%;
+          height: 40px;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+        }
+      }
+
+      // 图书信息样式
+      .book-info-pane {
+        .title {
+          text-align: left;
+        }
+
+        .sub-title {
+          display: block;
+          margin: 20px 0;
+        }
+      }
+
+      // 用户表单样式
+      .user-form-pane {
+        .title {
+          text-align: left;
+        }
+
+        // 输入框/按钮样式
+        .el-input,
+        .el-button {
+          width: 100%;
+          height: 36px;
+          margin: 8px 0;
+
+          input {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
